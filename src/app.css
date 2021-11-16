@@ -1,9 +1,9 @@
 :root {
   --heading-font-family: "Fredericka the Great", cursive;
   --text-font-family: "Chivo", sans-serif;
-  --primary-color: #30475e;
+  --primary-color: #3b5066;
   --secondary-color: #222831;
-  --accent-color: #f05454;
+  --accent-color: #ef5d5d;
   --background-highlight: #f2eaea;
   --button-box-shadow: 2px 2px 4px 2px rgb(0 0 0 / 15%);
 }
@@ -11,6 +11,12 @@
   h1,
   h2 {
     text-align: center;
+  }
+}
+@media (max-width: 424px) {
+  .btn-styling {
+    font-size: 12px;
+    padding: 0px;
   }
 }
 .index-container {
