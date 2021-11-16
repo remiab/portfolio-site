@@ -5,6 +5,7 @@
   --secondary-color: #222831;
   --accent-color: #f05454;
   --background-highlight: #f2eaea;
+  --button-box-shadow: 2px 2px 4px 2px rgb(0 0 0 / 15%);
 }
 @media (max-width: 768px) {
   h1,
@@ -32,13 +33,31 @@ h2 {
 }
 .btn-styling {
   border-radius: 40px;
+  box-shadow: var(--button-box-shadow);
   color: #ffffff;
-  padding: 15px 20px;
+  padding: 15px 25px;
   text-transform: capitalize;
+}
+.btn-styling:hover {
+  color: #ffffff;
 }
 .btn-about {
   background-color: var(--primary-color);
 }
+.btn-about:hover {
+  background-color: #263849;
+}
 .btn-work {
   background-color: var(--accent-color);
+}
+.btn-work:hover {
+  background-color: #e04e4e;
+}
+.footer {
+  color: var(--secondary-color);
+  font-size: 14px;
+  text-align: center;
+}
+.footer a {
+  color: var(--primary-color);
 }
