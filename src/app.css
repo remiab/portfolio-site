@@ -19,6 +19,9 @@
     padding: 0px;
   }
 }
+.hero-wrapper {
+  background-color: var(--background-highlight);
+}
 .index-container {
   max-width: 868px;
 }
