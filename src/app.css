@@ -9,14 +9,19 @@
 }
 @media (max-width: 768px) {
   h1,
-  h2 {
+  h2,
+  h3 {
     text-align: center;
+  }
+  .app-btn-styling {
+    display: block;
+    margin: auto;
   }
 }
 @media (max-width: 424px) {
   .btn-styling {
     font-size: 12px;
-    padding: 0px;
+    padding: 10px 10px !important;
   }
 }
 .hero-wrapper {
@@ -100,6 +105,9 @@ p {
   font-size: 14px;
   font-weight: 400;
   padding: 10px 15px;
+}
+.upcoming-link:hover {
+  text-decoration: underline;
 }
 .footer {
   color: var(--secondary-color);
