@@ -28,7 +28,8 @@
   background-color: var(--background-highlight);
 }
 .index-container,
-.about-container {
+.about-container,
+.projects-container {
   max-width: 868px;
 }
 
@@ -36,6 +37,7 @@ h1,
 h3,
 h4 {
   font-family: var(--heading-font-family);
+  text-transform: capitalize;
 }
 
 h1 {
@@ -107,6 +109,11 @@ h4 {
   font-size: 14px;
   font-weight: 400;
   padding: 10px 15px;
+  transition: all ease-in-out 150ms;
+}
+.app-btn-styling:hover {
+  background-color: #e04e4e;
+  color: #ffffff;
 }
 .upcoming-link:hover {
   text-decoration: underline;
