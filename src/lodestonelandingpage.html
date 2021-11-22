@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the Lodestone</title>
+    <style>
+      .main-box {
+        background: linear-gradient(
+          180deg,
+          rgba(230, 222, 221, 0.8) 40%,
+          rgba(248, 157, 19, 0.85) 95%,
+          rgba(143, 29, 20, 0.85) 100%
+        );
+
+        border-radius: 20px;
+        color: #1b120f;
+        font-family: "Lucida Console", "Courier New", Courier, monospace;
+        display: block;
+        margin: auto auto;
+        max-width: 700px;
+        padding: 30px 40px 20px;
+        text-align: center;
+      }
+      .lodestone-logo {
+        display: block;
+        margin: 0 auto;
+        max-width: 50px;
+      }
+      h1 {
+        font-size: 36px;
+        margin: 10px auto 30px;
+        text-align: center;
+      }
+      h2 {
+        font-size: 20px;
+      }
+      hr {
+        color: rgba(143, 29, 20, 1);
+        border-style: double;
+      }
+      .bookshop-image {
+        border-radius: 10px;
+        max-width: 500px;
+        margin: 20px auto;
+      }
+      .summary {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: left;
+        margin: 10px auto 30px;
+        padding: 0 30px;
+      }
+      .open-update {
+        font-size: 16px;
+        margin: 20px auto;
+      }
+      .join-community {
+        background: rgba(143, 29, 20, 0.7);
+        border-color: #1b120f;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 30px;
+        box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.25);
+        color: #e6dedd;
+        font: menu;
+        font-size: 16px;
+        margin: 5px auto 20px;
+        padding: 15px 30px;
+        transition: all 200ms ease-in-out;
+      }
+      .join-community:hover {
+        background-color: rgba(143, 29, 20, 0.5);
+        cursor: pointer;
+      }
+      .queer-book-rec {
+        padding: 10px;
+      }
+      .queer-book-rec-link {
+        font-weight: bolder;
+        text-decoration: none;
+      }
+      .coded-by {
+        font-size: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-box">
+      <img
+        class="lodestone-logo"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/842/original/lodestonelogo.png?1634153029"
+        alt="logo of the lodestone"
+      />
+      <h1>
+        the
+        <br />
+        Lodestone
+      </h1>
+      <h2>a Queer Bookshop and Social Space</h2>
+      <hr />
+      <img
+        class="bookshop-image"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/823/original/bookshop1.jpg?1634135076"
+        alt="image of the inside of a bookshop"
+      />
+
+      <p class="summary">
+        The Lodestone will be a bookshop and cafe for the local LGBTQ+
+        community. Connect with others over a book and a coffee, or make friends
+        with boardgames and tea. Just fancy some time to yourself? Curl up with
+        a book in one of our reading nooks.
+        <br />
+        <br />
+        We're also planning evening art classes, games nights and film
+        screenings.
+      </p>
+
+      <div class="open-update">Click below for an update when we open</div>
+      <button class="join-community">
+        <strong> Join the Community 🏳‍🌈</strong>
+      </button>
+      <div class="queer-book-rec">
+        In the meantime, enjoy some
+        <a
+          class="queer-book-rec queer-book-rec-link"
+          href="https://www.goodreads.com/list/show/139219.2021_Queer_SFF"
+          target="_blank"
+        >
+          Queer Book Recommendations</a
+        >
+      </div>
+      <hr />
+      <span class="coded-by">coded by Remi Bevan</span>
+    </div>
+    <script>
+      function join() {
+        let name = prompt("What's you're name?");
+        let emailAddress = prompt("What's your email address?");
+        let signUp = "🏳‍🌈 Thanks " + name + ", we'll be in touch! 🏳‍🌈";
+
+        if (name.length > 0 && emailAddress.length > 0) {
+          alert(signUp);
+        } else {
+        }
+      }
+
+      let joinButton = document.querySelector(".join-community");
+      joinButton.addEventListener("click", join);
+    </script>
+  </body>
+</html>

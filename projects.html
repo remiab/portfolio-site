@@ -24,17 +24,22 @@
     <title>My Work - Remi Bevan</title>
   </head>
   <body>
-    <div class="container projects-container">
-      <h1 class="d-flex justify-content-center my-5">My Projects</h1>
+    <div class="title-wrapper-work">
+    <div class="container projects-title-container">
+      <h1 class="d-flex justify-content-center pt-5">My Projects</h1>
       <hr />
+      <br>
+      </div>
+      </div>
+      <div class="container projects-body-container">
       <h3 class="d-flex justify-content-center my-4">Completed projects</h3>
       <div class="row my-4">
         <div class="col-md-6">
-          <div class="wrapper">
+          <div class="wrapper-work d-none d-md-block">
             <img
               src="/images/lodestone-cap.JPG"
               alt="screen-cap of brand landing page"
-              class="img-fluid rounded work-img"
+              class="img-fluid rounded work-img d-none d-md-block"
             />
           </div>
         </div>
@@ -48,6 +53,12 @@
             <i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i
             ><i class="fab fa-js"></i>
           </div>
+          <a
+            href="/src/lodestonelandingpage.html"
+            target="_blank"
+            class="btn app-btn-styling my-4 mx-3"
+            >Launch page</a
+          >
         </div>
       </div>
       <div class="row my-4">
@@ -65,24 +76,30 @@
             ><i class="fab fa-js"></i><i class="fab fa-bootstrap"></i
             ><i class="fab fa-github-square"></i>
           </div>
+          <a
+            href="https://friendly-minsky-b34504.netlify.app/"
+            target="_blank"
+            class="btn app-btn-styling my-4 mx-3"
+            >Launch App</a
+          >
         </div>
         <div class="col-md-6">
-          <div class="wrapper">
+          <div class="wrapper-weather d-none d-md-block">
             <img
               src="/images/weather-cap.JPG"
               alt="screen-cap of weather-app"
-              class="img-fluid rounded work-img"
+              class="img-fluid rounded work-img d-none d-md-block"
             />
           </div>
         </div>
       </div>
       <div class="row my-4">
         <div class="col-md-6">
-          <div class="wrapper">
+          <div class="wrapper-work d-none d-md-block">
             <img
               src="/images/portfolio-cap.JPG"
               alt="screen-cap of portfolio site"
-              class="img-fluid rounded work-img"
+              class="img-fluid rounded work-img d-none d-md-block"
             />
           </div>
         </div>
@@ -138,6 +155,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
     <script

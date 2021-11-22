@@ -24,12 +24,14 @@
     padding: 10px 10px !important;
   }
 }
-.hero-wrapper {
+.hero-wrapper,
+.title-wrapper-work {
   background-color: var(--background-highlight);
 }
 .index-container,
 .about-container,
-.projects-container {
+.projects-title-container,
+.projects-body-container {
   max-width: 868px;
 }
 
@@ -101,7 +103,8 @@ h5 {
   border: 5px solid #ffffff;
   box-shadow: var(--button-box-shadow);
 }
-.wrapper {
+.wrapper-index,
+.wrapper-work {
   background-color: var(--background-highlight);
   border-radius: 10px;
   padding: 50px 10px;
@@ -143,6 +146,11 @@ hr {
   border-style: double;
   color: var(--primary-color);
   opacity: 1;
+}
+.wrapper-weather {
+  background-color: var(--background-highlight);
+  border-radius: 10px;
+  padding: 100px 10px;
 }
 .icons {
   color: var(--primary-color);
