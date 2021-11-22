@@ -42,7 +42,6 @@ h4 {
 
 h1 {
   color: var(--primary-color);
-
   font-size: 60px;
 }
 h2 {
@@ -59,7 +58,12 @@ h4 {
   color: var(--secondary-color);
   font-size: 24px;
 }
-.index-para {
+h5 {
+  font-family: var(--text-font-family);
+}
+.index-para,
+.work-para,
+.upcoming-para {
   color: var(--secondary-color);
   font-family: var(--text-font-family);
   font-size: 18px;
@@ -92,7 +96,8 @@ h4 {
   background-color: #e04e4e;
 }
 
-.featured-img {
+.featured-img,
+.work-img {
   border: 5px solid #ffffff;
   box-shadow: var(--button-box-shadow);
 }
@@ -130,6 +135,24 @@ h4 {
 }
 .about-headshot {
   border-radius: 10px;
+}
+
+hr {
+  background-color: #ffffff;
+  border: 1px;
+  border-style: double;
+  color: var(--primary-color);
+  opacity: 1;
+}
+.icons {
+  color: var(--primary-color);
+  font-size: 26px;
+}
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .footer {
   color: var(--secondary-color);

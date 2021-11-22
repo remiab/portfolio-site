@@ -25,52 +25,119 @@
   </head>
   <body>
     <div class="container projects-container">
-      <h1 class="d-flex justify-content-center">My Projects</h1>
-      <h3 class="d-flex justify-content-center">Completed projects</h3>
-      <div class="row">
+      <h1 class="d-flex justify-content-center my-5">My Projects</h1>
+      <hr />
+      <h3 class="d-flex justify-content-center my-4">Completed projects</h3>
+      <div class="row my-4">
         <div class="col-md-6">
-          <img
-            src="/images/lodestone-cap.JPG"
-            alt="screen-cap of brand landing page"
-            class="img-fluid"
-          />
+          <div class="wrapper">
+            <img
+              src="/images/lodestone-cap.JPG"
+              alt="screen-cap of brand landing page"
+              class="img-fluid rounded work-img"
+            />
+          </div>
         </div>
         <div class="col-md-6">
-          <h4>Brand landing page</h4>
-          <p>
+          <h4 class="my-4 mx-3">Brand landing page</h4>
+          <p class="text-muted mx-3 work-para">
             This project was my introduction to coding. With this I learned the
             fundamentals of HTML and CSS, as well as some basic Javascript.
           </p>
+          <div class="icons d-flex justify-content-around my-4 mx-3">
+            <i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i
+            ><i class="fab fa-js"></i>
+          </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row my-4">
         <div class="col-md-6">
-          <h4>Weather app</h4>
-          <p>
-            This weather app built on my previous knowledge of HTML and CSS
-            while using Vanilla Javascript to draw current weather and forecast
-            data from the OpenWeatherMap API. This project also gave me
-            experience using Bootstrap. I learned about the development workflow
-            and how to use Git and GitHub.
+          <h4 class="my-4 mx-3">Weather app</h4>
+          <p class="text-muted mx-3 work-para">
+            Here I built on my previous knowledge of HTML and CSS while using
+            Vanilla Javascript to draw current weather and forecast data from
+            the OpenWeatherMap API. This project also gave me experience using
+            Bootstrap. I learned about development workflow and how to use Git
+            and GitHub.
           </p>
+          <div class="icons d-flex justify-content-around m-3">
+            <i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i
+            ><i class="fab fa-js"></i><i class="fab fa-bootstrap"></i
+            ><i class="fab fa-github-square"></i>
+          </div>
         </div>
         <div class="col-md-6">
-          <img
-            src="/images/weather-cap.JPG"
-            alt="screen-cap of weather-app"
-            class="img-fluid"
-          />
+          <div class="wrapper">
+            <img
+              src="/images/weather-cap.JPG"
+              alt="screen-cap of weather-app"
+              class="img-fluid rounded work-img"
+            />
+          </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row my-4">
         <div class="col-md-6">
-          <img
-            src="/images/portfolio-cap.JPG"
-            alt="screen-cap of portfolio site"
-            class="img-fluid"
-          />
+          <div class="wrapper">
+            <img
+              src="/images/portfolio-cap.JPG"
+              alt="screen-cap of portfolio site"
+              class="img-fluid rounded work-img"
+            />
+          </div>
         </div>
-        <div class="col-md-6"></div>
+        <div class="col-md-6">
+          <h4 class="my-4 mx-3">Portfolio site</h4>
+          <p class="text-muted mx-3 work-para">
+            In this project I built a fully responsive portfolio website using
+            Bootstrap.
+          </p>
+          <div class="icons d-flex justify-content-around my-4 mx-3">
+            <i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i
+            ><i class="fab fa-bootstrap"></i
+            ><i class="fab fa-github-square"></i>
+          </div>
+        </div>
+      </div>
+      <h3
+        class="d-flex justify-content-center mt-5 mb-4"
+        id="upcoming-projects"
+      >
+        Upcoming projects
+      </h3>
+      <div class="row mt-3 mb-5">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title mb-4">Weather App 2.0</h5>
+              <p class="upcoming-para">
+                Second iteration of my Weather App using Bootstrap for
+                responsivity and React JS
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title mb-4">Dictionary app</h5>
+              <p class="upcoming-para">Dictionary app using React JS</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title mb-3">TransearchGP</h5>
+              <p class="upcoming-para">
+                A longer term project aiming to allow the trans community to
+                search for GP practices near them and see reviews from other
+                trans people, hopefully improving their experience of primary
+                care.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script
