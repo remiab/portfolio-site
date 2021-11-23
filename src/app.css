@@ -27,6 +27,36 @@
     font-size: 40px;
   }
 }
+.navbar {
+  background-color: var(--secondary-color);
+  line-height: 40px;
+  padding: 20px 50px;
+}
+.navbar-brand {
+  color: #ffffff;
+  font-family: var(--heading-font-family);
+  font-size: 50px;
+}
+.navbar-toggler {
+  color: #ffffff;
+}
+.nav-item {
+  padding-left: 15px;
+}
+.nav-link {
+  color: #ffffff !important;
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  font-weight: 300;
+  transition: all ease-in-out 100ms;
+}
+.nav-link:hover {
+  font-weight: 400;
+}
+.nav-link.active {
+  color: var(--accent-color) !important;
+}
+
 .hero-wrapper-index,
 .title-wrapper-work,
 .about-body,
@@ -135,10 +165,11 @@ h5 {
   color: #ffffff;
 }
 .btn-upcoming {
-  filter: saturate(0.7);
+  filter: saturate(0.6);
 }
 .upcoming-link {
   color: #ffffff;
+  font-size: 20px;
 }
 
 .about-para {
