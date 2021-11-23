@@ -25,7 +25,9 @@
   }
 }
 .hero-wrapper-index,
-.title-wrapper-work {
+.title-wrapper-work,
+.about-body,
+.contact-body {
   background-color: var(--background-highlight);
 }
 .index-container,
@@ -85,16 +87,22 @@ h5 {
 .btn-styling:hover {
   color: #ffffff;
 }
-.btn-about {
+.btn-about,
+.btn-work,
+.btn-upcoming {
   background-color: var(--primary-color);
 }
-.btn-about:hover {
+.btn-about:hover,
+.btn-work:hover,
+.btn-upcoming:hover {
   background-color: #263849;
 }
-.btn-work {
+.btn-projects,
+.btn-contact {
   background-color: var(--accent-color);
 }
-.btn-work:hover {
+.btn-projects:hover,
+.btn-contact:hover {
   background-color: #e04e4e;
 }
 
@@ -123,8 +131,11 @@ h5 {
   background-color: #e04e4e;
   color: #ffffff;
 }
-.upcoming-link:hover {
-  text-decoration: underline;
+.btn-upcoming {
+  filter: saturate(0.7);
+}
+.upcoming-link {
+  color: #ffffff;
 }
 
 .about-para {
@@ -162,6 +173,12 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.contact-link {
+  color: var(--primary-color);
+  font-family: var(--text-font-family);
+  font-size: 16;
+  font-weight: 300;
 }
 .footer {
   color: var(--secondary-color);
