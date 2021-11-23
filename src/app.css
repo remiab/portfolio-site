@@ -24,7 +24,7 @@
     padding: 10px 10px !important;
   }
 }
-.hero-wrapper,
+.hero-wrapper-index,
 .title-wrapper-work {
   background-color: var(--background-highlight);
 }
@@ -157,6 +157,7 @@ hr {
   font-size: 26px;
 }
 .card {
+  background-color: var(--background-highlight);
   height: 100%;
   display: flex;
   flex-direction: column;
