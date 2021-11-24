@@ -69,6 +69,9 @@
 .projects-body-container {
   max-width: 868px;
 }
+.index-container {
+  margin-top: 80px;
+}
 
 h1,
 h3,
@@ -121,13 +124,11 @@ h5 {
   color: #ffffff;
 }
 .btn-about,
-.btn-work,
-.btn-upcoming {
+.btn-work {
   background-color: var(--primary-color);
 }
 .btn-about:hover,
-.btn-work:hover,
-.btn-upcoming:hover {
+.btn-work:hover {
   background-color: #263849;
 }
 .btn-projects,
@@ -158,18 +159,12 @@ h5 {
   font-size: 14px;
   font-weight: 400;
   padding: 10px 15px;
+  text-transform: capitalize;
   transition: all ease-in-out 150ms;
 }
 .app-btn-styling:hover {
   background-color: #e04e4e;
   color: #ffffff;
-}
-.btn-upcoming {
-  filter: saturate(0.6);
-}
-.upcoming-link {
-  color: #ffffff;
-  font-size: 20px;
 }
 
 .about-para {
