@@ -29,7 +29,7 @@
   .footer-enquiry {
     flex-direction: column;
   }
-  footer h2 {
+  footer h5 {
     margin-left: 44px !important;
   }
 }
@@ -63,21 +63,17 @@
   color: var(--accent-color) !important;
 }
 
-.hero-wrapper-index,
-.title-wrapper-work,
-.about-body,
-.contact-body {
+.highlight-color {
   background-color: var(--background-highlight);
 }
-.index-container,
-.about-container,
-.projects-title-container,
-.projects-body-container,
-.contact-container {
+.container-width {
   max-width: 868px;
 }
-.index-container {
+.top-container-margin {
   margin-top: 80px;
+}
+.about-container {
+  margin-top: 170px;
 }
 
 h1,
@@ -86,7 +82,6 @@ h4 {
   font-family: var(--heading-font-family);
   text-transform: capitalize;
 }
-
 h1 {
   color: var(--primary-color);
   font-size: 60px;
@@ -116,9 +111,7 @@ h5 {
   font-size: 18px;
   font-weight: 300;
 }
-.hero {
-  background-color: var(--background-highlight);
-}
+
 .btn-styling {
   border-radius: 40px;
   box-shadow: var(--button-box-shadow);
@@ -210,13 +203,18 @@ hr {
   flex-direction: column;
   align-items: center;
 }
+.contact {
+  color: var(--primary-color);
+  font-family: var(--text-font-family);
+  font-size: 1.25rem;
+}
 .contact-link {
   color: var(--primary-color) !important;
   font-family: var(--text-font-family);
   font-size: 16;
   font-weight: 300;
 }
-footer h2 {
+footer h5 {
   font-size: 26px;
   margin-left: 20px;
 }

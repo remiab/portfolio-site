@@ -21,13 +21,17 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/src/app.css" />
-    <title>Homepage - Remi Bevan</title>
+    <meta
+      name="description"
+      content="Remi is a former doctor turned front-end developer looking to explore a new career. Explore their work here."
+    />
+    <title>Remi Bevan - Front-end Developer</title>
   </head>
   <body>
-    <div class="hero-wrapper-index">
+    <div class="highlight-color">
       <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">RB</a>
+          <a class="navbar-brand" href="/" title="Home">RB</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -45,22 +49,32 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/"
+                  title="Home"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about.html">About</a>
+                <a class="nav-link" href="/about.html" title="About">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/projects.html">Projects</a>
+                <a class="nav-link" href="/projects.html" title="Projects"
+                  >Projects</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact.html">Contact</a>
+                <a class="nav-link" href="/contact.html" title="Contact"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <div class="container index-container">
+      <div class="container top-container-margin container-width">
         <div class="hero p-5">
           <div class="row g-4">
             <div class="col-md-6">
@@ -90,7 +104,7 @@
         </div>
       </div>
     </div>
-    <div class="container index-container">
+    <div class="container container-width">
       <h3 class="d-flex justify-content-center m-5">Featured Projects</h3>
       <div class="row my-4">
         <div class="col-md-6">
@@ -98,7 +112,7 @@
             <img
               src="/images/weather-cap.JPG"
               class="img-fluid rounded d-none d-md-block featured-img"
-              alt="screen-cap of weather app"
+              alt="preview of weather app"
             />
           </div>
         </div>
@@ -109,9 +123,9 @@
             with HTML, CSS and vanilla JS
           </p>
           <a
-            href="https://friendly-minsky-b34504.netlify.app/"
+            href="/projects.html#weather-app"
             class="btn app-btn-styling my-4 mx-3"
-            >Launch App</a
+            >Learn More</a
           >
         </div>
       </div>
@@ -122,9 +136,9 @@
             A static page with simple JS interaction
           </p>
           <a
-            href="/src/lodestonelandingpage.html"
+            href="/projects.html#landing-page"
             class="btn app-btn-styling my-4 mx-3"
-            >Launch Page</a
+            >Learn More</a
           >
         </div>
         <div class="col-md-6">
@@ -132,7 +146,7 @@
             <img
               src="/images/lodestone-cap.JPG"
               class="img-fluid rounded d-none d-md-block featured-img"
-              alt="screen-cap of landing page"
+              alt="preview of landing page"
             />
           </div>
         </div>
@@ -142,7 +156,7 @@
       <div class="wrapper footer-wrapper">
         <div class="container">
           <div class="d-flex justify-content-center m-3 footer-enquiry">
-            <h2 class="footer">Work Enquiry:</h2>
+            <h5 class="footer">Work Enquiry:</h5>
             <a
               href="mailto:remi.bevan@gmail.com"
               class="footer-email footer px-4"

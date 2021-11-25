@@ -23,10 +23,10 @@
     <link rel="stylesheet" href="/src/app.css" />
     <title>About - Remi Bevan</title>
   </head>
-  <body class="about-body">
-    <nav class="navbar navbar-expand-md navbar-dark">
+  <body class="highlight-color">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">RB</a>
+        <a class="navbar-brand" href="/" title="Home">RB</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -44,23 +44,31 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">Home</a>
+              <a class="nav-link" aria-current="page" href="/" title="Home"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/about.html">About</a>
+              <a class="nav-link active" href="/about.html" title="About"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/projects.html">Projects</a>
+              <a class="nav-link" href="/projects.html" title="Projects"
+                >Projects</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a class="nav-link" href="/contact.html" title="Contact"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container about-container">
-      <div class="row my-5">
+    <div class="container container-width about-container">
+      <div class="about-box row my-5">
         <div class="col-md-6">
           <h1 class="mb-4 mx-3">About Me</h1>
           <p class="m-3 about-para">
@@ -103,7 +111,7 @@
       <div class="wrapper footer-wrapper">
         <div class="container">
           <div class="d-flex justify-content-center m-3 footer-enquiry">
-            <h2 class="footer">Work Enquiry:</h2>
+            <h5 class="footer">Work Enquiry:</h5>
             <a
               href="mailto:remi.bevan@gmail.com"
               class="footer-email footer px-4"
