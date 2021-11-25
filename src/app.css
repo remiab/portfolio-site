@@ -26,6 +26,12 @@
   .contact-title {
     font-size: 40px;
   }
+  .footer-enquiry {
+    flex-direction: column;
+  }
+  footer h2 {
+    margin-left: 44px !important;
+  }
 }
 .navbar {
   background-color: var(--secondary-color);
