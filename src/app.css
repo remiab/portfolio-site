@@ -209,11 +209,35 @@ hr {
   font-size: 16;
   font-weight: 300;
 }
-.footer {
-  color: var(--secondary-color);
-  font-size: 14px;
-  text-align: center;
+footer h2 {
+  font-size: 26px;
+  margin-left: 20px;
 }
+.footer-wrapper {
+  background-color: var(--secondary-color);
+  padding: 20px;
+}
+.footer,
 .footer a {
-  color: var(--primary-color);
+  color: #ffffff;
+  font-family: var(--text-font-family);
+  font-weight: 300;
+}
+.footer-enquiry {
+  align-items: baseline;
+}
+.footer-icon {
+  font-size: 20px;
+}
+.footer-icon:hover {
+  font-size: 22px;
+}
+.footer-email {
+  color: #e2e2e2;
+  font-size: 20px;
+  text-decoration: none;
+}
+.footer-email:hover {
+  color: #e2e2e2;
+  font-weight: 400;
 }
