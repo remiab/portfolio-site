@@ -27,10 +27,6 @@
     font-size: 40px;
   }
   .footer-enquiry {
-    flex-direction: column;
-  }
-  footer h5 {
-    margin-left: 44px !important;
   }
 }
 .navbar {
@@ -216,7 +212,6 @@ hr {
 }
 footer h5 {
   font-size: 26px;
-  margin-left: 20px;
 }
 .footer-wrapper {
   background-color: var(--secondary-color);
